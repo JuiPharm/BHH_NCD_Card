@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BHH NCD Diamond Card | 2-Page Premium Brochure</title>
+  <title>BHH NCDs Diamond Card | 2-Page Premium Brochure</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -111,25 +111,36 @@
       gap:14px;
     }
 
-    .brand-mark{
-      width:58px;
-      height:58px;
-      border-radius:18px;
-      display:grid;
-      place-items:center;
-      font-weight:800;
-      font-size:24px;
-      letter-spacing:.4px;
-      background:linear-gradient(135deg, rgba(255,255,255,.15), rgba(255,255,255,.04));
-      border:1px solid rgba(255,255,255,.16);
-      box-shadow:0 10px 28px rgba(0,0,0,.18);
-      color:#fff;
+    .brand-logo-wrap{
+      width:76px;
+      height:76px;
+      border-radius:20px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      overflow:hidden;
+      box-shadow:0 12px 30px rgba(0,0,0,.18);
+      flex-shrink:0;
     }
 
-    .page-2 .brand-mark{
-      background:linear-gradient(135deg, #0b376d, #0a5ca6);
-      border:none;
-      color:#fff;
+    .page-1 .brand-logo-wrap{
+      background:linear-gradient(135deg, rgba(255,255,255,.16), rgba(255,255,255,.05));
+      border:1px solid rgba(255,255,255,.16);
+      backdrop-filter:blur(8px);
+    }
+
+    .page-2 .brand-logo-wrap{
+      background:#ffffff;
+      border:1px solid rgba(9,35,68,.10);
+      box-shadow:0 10px 24px rgba(15,40,72,.08);
+    }
+
+    .brand-logo{
+      width:100%;
+      height:100%;
+      object-fit:contain;
+      display:block;
+      padding:10px;
     }
 
     .brand-copy small{
@@ -611,7 +622,6 @@
 
     .btn:hover{transform:translateY(-2px)}
 
-    /* page 2 */
     .page-2 .section-header{
       display:flex;
       align-items:end;
@@ -972,6 +982,7 @@
       .visual-card-wrap{display:block}
       .badge-1,.badge-2{display:block}
       .footer-note{flex-direction:column}
+      .brand-logo-wrap{width:68px;height:68px}
     }
 
     @media print{
@@ -1003,12 +1014,16 @@
 
         <div class="topbar">
           <div class="brand">
-           <div class="brand-mark">
-  <img src="https://lh3.googleusercontent.com/d/18gfsdR2hQ2l1YhS8gipWOR2zQdmGwZEr" alt="Bangkok Hospital Hat Yai Logo">
-</div>
+            <div class="brand-logo-wrap">
+              <img
+                class="brand-logo"
+                src="https://lh3.googleusercontent.com/d/1r7PM1ogHIbxskvcauVIYaQOfSHXWGncO"
+                alt="Bangkok Hospital Hat Yai Logo"
+              />
+            </div>
             <div class="brand-copy">
               <small>Bangkok Hospital Hat Yai</small>
-              <strong>BHH NCD Diamond Card</strong>
+              <strong>BHH NCDs Diamond Card</strong>
             </div>
           </div>
           <div class="tag">Premium NCD Care Membership</div>
@@ -1026,7 +1041,7 @@
               ที่ต้องการความสะดวก ความคุ้มค่า และการดูแลอย่างใกล้ชิดในมาตรฐานโรงพยาบาลเอกชนระดับพรีเมียม
             </p>
             <p class="desc">
-              BHH NCD Diamond Card คือโปรแกรมสมาชิกที่ออกแบบมาเพื่อช่วยให้การดูแลสุขภาพระยะยาวเป็นเรื่องง่ายขึ้น
+              BHH NCDs Diamond Card คือโปรแกรมสมาชิกที่ออกแบบมาเพื่อช่วยให้การดูแลสุขภาพระยะยาวเป็นเรื่องง่ายขึ้น
               ครบทั้งสิทธิประโยชน์ด้านการตรวจเฉพาะโรค การติดตามอาการ การรับยา และการดูแลผ่านทีมสหสาขาวิชาชีพ
               เพื่อสนับสนุนการควบคุมโรคและลดความเสี่ยงของภาวะแทรกซ้อนในระยะยาว
             </p>
@@ -1044,7 +1059,7 @@
                   <div class="chip"></div>
                   <div class="diamond-logo">BANGKOK<br>HOSPITAL<br>HAT YAI</div>
                 </div>
-                <div class="diamond-title">BHH NCD Diamond Card</div>
+                <div class="diamond-title">BHH NCDs Diamond Card</div>
                 <div class="diamond-meta">
                   <span>Member Name</span>
                   <span>Valid 1 Year</span>
@@ -1167,12 +1182,16 @@
 
         <div class="topbar">
           <div class="brand">
-            <div class="brand-mark">
-  <img src="https://lh3.googleusercontent.com/d/18gfsdR2hQ2l1YhS8gipWOR2zQdmGwZEr" alt="Bangkok Hospital Hat Yai Logo">
-</div>
+            <div class="brand-logo-wrap">
+              <img
+                class="brand-logo"
+                src="https://lh3.googleusercontent.com/d/1r7PM1ogHIbxskvcauVIYaQOfSHXWGncO"
+                alt="Bangkok Hospital Hat Yai Logo"
+              />
+            </div>
             <div class="brand-copy">
               <small>Bangkok Hospital Hat Yai</small>
-              <strong>BHH NCD Diamond Card</strong>
+              <strong>BHH NCDs Diamond Card</strong>
             </div>
           </div>
           <div class="tag">Member Privileges & Details</div>
@@ -1209,7 +1228,7 @@
             <div class="icon">✦</div>
             <h3>สิทธิประโยชน์ด้านการดูแลสุขภาพ</h3>
             <ul>
-              <li>วงเงิน BHH NCD Diamond Card มูลค่า 60,000 บาท สำหรับค่าใช้จ่ายผู้ป่วยนอกตามเงื่อนไข</li>
+              <li>วงเงิน BHH NCDs Diamond Card มูลค่า 60,000 บาท สำหรับค่าใช้จ่ายผู้ป่วยนอกตามเงื่อนไข</li>
               <li>ชุดตรวจประเมินภาวะแทรกซ้อนของโรคเบาหวาน ความดันโลหิตสูง และไขมันในเลือดสูง จำนวน 1 ชุด</li>
               <li>ชุดตรวจประเมินหลอดเลือดหัวใจและสมอง จำนวน 1 ชุด</li>
               <li>วัคซีนไข้หวัดใหญ่ 1 เข็ม รวมค่าแพทย์ผู้ป่วยนอก</li>
